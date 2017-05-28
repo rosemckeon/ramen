@@ -2,7 +2,7 @@ library(shiny)
 
 my_histUI <- function(id) {
   ns <- NS(id)
-  div(
+  div(class = ns("content"),
     fluidRow( class = "align-items-center",
       column(10, sliderInput(
         inputId = ns("num"),
@@ -15,9 +15,8 @@ my_histUI <- function(id) {
         "Go!",
         icon = icon(
           "chevron-right"
-          #"fa-pull-right"
-          #style = "margin-left:.6em; line-height: 1.5em;"
-        )
+        ),
+        class = "btn-primary"
       ))
     ),
     fluidRow(
