@@ -1,6 +1,7 @@
 {
   "name": "ramen",
-  "homepage": "http://roses.shinyapps.io/ramen",
+  "version": "0.0.9001",
+  "homepage": "https://github.com/rozeykex/ramen",
   "authors": [
     "Rose McKeon <rose@rosemckeon.co.uk>"
   ],

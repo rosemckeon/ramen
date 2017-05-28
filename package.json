@@ -1,13 +1,13 @@
 {
   "name": "ramen",
   "description": "Shiny App template for web developers",
-  "version": "0.0.9000",
+  "version": "0.0.9001",
   "author": "Rose McKeon <rose@rosemckeon.co.uk>",
   "homepage": "http://rosemckeon.co.uk",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/rozeykex/ramen.git"
+    "url": "https://github.com/rozeykex/ramen/"
   },
   "bugs": {
     "url": "https://github.com/rozeykex/ramen/issues"
