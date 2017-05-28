@@ -1,7 +1,12 @@
+# R 
 packrat/lib*/
-.Rproj.user
 packrat/src/
+.Rproj.user
+.Rhistory
+.Rprofile
+ramen.Rproj
+
+# Ramen
 bower_components/
 node_modules/
 npm-debug.log
-vendor/
