@@ -4,6 +4,7 @@ packrat/src/
 .Rproj.user
 .Rhistory
 .Rprofile
+ramen.Rproj
 
 # Ramen
 bower_components/
