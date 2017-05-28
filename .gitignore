@@ -1,0 +1,7 @@
+packrat/lib*/
+.Rproj.user
+packrat/src/
+bower_components/
+node_modules/
+npm-debug.log
+vendor/
