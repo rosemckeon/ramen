@@ -1,10 +1,11 @@
 library(shiny)
-# modules keep things tidy as they evolve
+# modules keep things tidy and reduce server load
 source("modules/hist.R")
 
+# UI code called once per R session (least often)
 shinyUI(
   bootstrapPage(
-    # supress dependencies which we combine together via manifest
+    # These are reloaded with updated Bootstrap scripts as one minified script (main.js)
     suppressDependencies(
       "bootstrap",
       "font-awesome",
