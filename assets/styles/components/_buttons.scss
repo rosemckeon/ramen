@@ -1,5 +1,8 @@
-.action-button .fa-chevron-right {
-	float: right;
-	margin-left: 0.6em;
-	line-height: 1.25em;
+.action-button {
+	cursor: pointer;
+	.fa-chevron-right {
+		float: right;
+		margin-left: 0.6em;
+		line-height: 1.25em;
+	}
 }
