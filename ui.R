@@ -3,7 +3,6 @@ library(shiny)
 source("modules/hist.R")
 
 shinyUI(
-  #includeScript("www/scripts/jquery.js"),
   bootstrapPage(
     # supress dependencies which we combine together via manifest
     suppressDependencies(
@@ -12,9 +11,9 @@ shinyUI(
       "html5shiv",
       "respond"
     ),
-    #includeScript("www/scripts/main.js"),
     tags$head(includeScript("www/scripts/main.js")),
     div(class="container",
+      h1(class="app-title", "Ramen"),
       # modules UIs get called here
       my_histUI("my-hist-1")
     ),
