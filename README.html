@@ -121,24 +121,61 @@ $(document).ready(function () {
 
 <div id="ramen" class="section level1">
 <h1>Ramen</h1>
-<p><strong>Hopefully Ramen will become a Shiny App template which provides the latest Bootstrap to use as a theme for <code>bootstrapPage()</code>, as well as web developer tools for enhanced appearance modification and loading times.</strong></p>
-<p>Ramen makes use of bower and npm to handle development dependencies, enabling Gulp, which is used to minify assets and compile SCSS into fast loading distribution files.</p>
+<ul>
+<li><strong>Author:</strong> <a href="http://rosemckeon.co.uk">Rose McKeon</a></li>
+<li><strong>Version:</strong> 0.0.9001</li>
+<li><strong>Licence:</strong> MIT</li>
+<li><strong>Repo:</strong> <a href="https://github.com/rozeykex/ramen.git">git@github.com:rozeykex/ramen.git</a></li>
+<li><strong>Issues:</strong> <a href="https://github.com/rozeykex/ramen/issues" class="uri">https://github.com/rozeykex/ramen/issues</a></li>
+<li><strong>Demo:</strong></li>
+</ul>
+<div id="more-control-over-your-shiny-apps-style-and-dependencies" class="section level2">
+<h2>More control over your Shiny App’s style and dependencies</h2>
+<p><strong>Ramen is a Shiny app template which provides Bootstrap v4 Alpha and custom styles to use as the libs and theme for <code>bootstrapPage()</code>, as well as web developer tools and webfonts for further appearance modification.</strong></p>
+<p>Ramen makes use of bower and npm to handle development dependencies, enabling Gulp, which is used to minify assets and compile SCSS into fast loading custom distribution files.</p>
+<p>Some very basic R inputs and outputs are included via R modules, so it’s clear how things work. An example action button is included too, so you can see how to isolate reactions and reduce server load.</p>
+</div>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<ol style="list-style-type: decimal">
+<li>Inside a new empty project folder: <code>$ git clone --depth=1 git@github.com:rozeykex/ramen.git ./ &amp;&amp; rm -rf .git</code></li>
+<li><code>$ bower update</code></li>
+<li><code>$ npm install</code></li>
+</ol>
+</div>
+<div id="usage" class="section level2">
+<h2>Usage</h2>
 <ol style="list-style-type: decimal">
 <li>Edit <code>./assets</code></li>
-<li>Run <code>$ gulp</code> from the project root, via terminal.</li>
+<li>Run <code>$ gulp</code> from the project root.</li>
 <li>Files output to <code>./www</code> are made available to your App.</li>
 </ol>
 <blockquote>
 <p><code>./assets/manifest.json</code> controls distribution output (see <a href="https://github.com/austinpray/asset-builder/tree/master/help">Manifest help</a>).</p>
 </blockquote>
-<div id="useful-links" class="section level2">
-<h2>Useful links</h2>
+<div id="more-gulp-commands" class="section level3">
+<h3>More gulp commands</h3>
 <ul>
-<li>Bootstrap</li>
-<li>Bower</li>
-<li><a href="https://github.com/austinpray/asset-builder/tree/master/help">Manifest</a></li>
-<li>Gulp</li>
+<li><code>$ gulp watch</code> compiles/minifies and exports live as you edit. A self refreshing dev url can be set via manifest.json.</li>
+<li><code>$ gulp styles</code> compiles and exports style changes only.</li>
+<li><code>$ gulp fonts</code> exports fonts only.</li>
+<li><code>$ gulp scripts</code> exports scripts only.</li>
 </ul>
+<p>See: <code>./gulpfile.js</code> tasks for more details.</p>
+</div>
+<div id="useful-links" class="section level3">
+<h3>Useful links</h3>
+<ul>
+<li><a href="https://v4-alpha.getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://bower.io/">Bower</a></li>
+<li><a href="https://github.com/austinpray/asset-builder/tree/master/help">Manifest</a></li>
+<li><a href="http://gulpjs.com/">Gulp</a></li>
+</ul>
+</div>
+<div id="contribution" class="section level3">
+<h3>Contribution</h3>
+<p>Please feel free to contribute via Github.</p>
+</div>
 </div>
 </div>
 
