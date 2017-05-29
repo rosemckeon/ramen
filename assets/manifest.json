@@ -22,9 +22,6 @@
       ],
       "main": true
     },
-    "jquery.js": {
-      "bower": ["jquery"]
-    },
     "fonts": {
       "files": [
       	"../bower_components/components-font-awesome/fonts/fontawesome-webfont.eot",
@@ -46,7 +43,7 @@
   },
   "paths": {
     "source": "assets/",
-    "dist": "www/"
+    "dist": "app/www/"
   },
   "config": {
     "devUrl": "http://127.0.0.1:3847/"

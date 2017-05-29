@@ -1,11 +1,27 @@
 {
   "name": "ramen",
-  "homepage": "http://roses.shinyapps.io/ramen",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rozeykex/ramen",
   "authors": [
     "Rose McKeon <rose@rosemckeon.co.uk>"
   ],
   "license": "MIT",
   "private": true,
+  "main": [
+    "./app/ui.R",
+    "./app/www/styles/main.css",
+    "./app/www/scripts/main.js"
+  ],
+  "ignore": [
+    ".*",
+    "node_modules",
+    "composer.json",
+    "packrat",
+    "assets",
+    "bower_components",
+    "gulpfile.js",
+    "ramen.Rproj"
+  ],
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6",
     "raleway": "^1.0.1",
