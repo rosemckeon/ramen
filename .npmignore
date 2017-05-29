@@ -1,0 +1,12 @@
+# R 
+packrat/lib*/
+packrat/src/
+.Rproj.user
+.Rhistory
+.Rprofile
+ramen.Rproj
+
+# Ramen
+bower_components/
+node_modules/
+npm-debug.log
