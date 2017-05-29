@@ -1,7 +1,7 @@
 # Ramen
 
 - **Author:** [Rose McKeon](http://rosemckeon.co.uk)
-- **Version:** 0.1.0
+- **Version:** 0.1.1
 - **Licence:** MIT
 - **Repo:** [git@github.com:rozeykex/ramen.git](https://github.com/rozeykex/ramen.git)
 - **Issues:** https://github.com/rozeykex/ramen/issues
