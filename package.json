@@ -1,7 +1,7 @@
 {
   "name": "ramen",
   "description": "Shiny App template for web developers",
-  "version": "0.0.9001",
+  "version": "0.0.9002",
   "author": "Rose McKeon <rose@rosemckeon.co.uk>",
   "homepage": "http://rosemckeon.co.uk",
   "private": true,

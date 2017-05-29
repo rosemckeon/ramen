@@ -10,3 +10,4 @@ ramen.Rproj
 bower_components/
 node_modules/
 npm-debug.log
+app/rsconnect
