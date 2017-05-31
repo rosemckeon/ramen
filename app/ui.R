@@ -12,12 +12,15 @@ shinyUI(
       "html5shiv",
       "respond"
     ),
-    tags$head(includeScript("www/scripts/main.js")),
+    tags$head(
+      tags$meta(name="viewport", content="width=device-width, initial-scale=1")
+    ),
     div(class="container",
       h1(class="app-title", "Ramen"),
       # modules UIs get called here
       my_histUI("my-hist-1")
     ),
+    tags$script(src="scripts/main.js"), # scripts better loaded outside of head
     title = "Ramen tastes so fine",
     theme = "styles/main.css" # doesn't need prepending with www/
   )
