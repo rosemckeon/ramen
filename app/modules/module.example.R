@@ -1,5 +1,4 @@
 # copy to your_module.R and keep this template empty for future
-library(shiny)
 
 # UI portion of your_module
 # @param id can be set when the module is loaded in ui.R

@@ -1,6 +1,5 @@
 # An exmaple module file with working functions
 # Create your own with empty template module.example.R
-library(shiny)
 
 # UI portion of my_hist module
 # @param id can be set when the module is loaded in ui.R
