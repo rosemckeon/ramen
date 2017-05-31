@@ -6,8 +6,8 @@ library(shiny)
 your_moduleUI <- function(id) {
   # set the id as name-space for ui elements
   ns <- NS(id)
-  # put your ui elements for inputs and output here
-  # See: ?ns for usage examples
+  # put your ui elements for inputs and output inside the content section
+  tags$section(class=ns("content"))
 }
 
 # server portion of your_module

@@ -7,30 +7,20 @@ library(shiny)
 my_histUI <- function(id) {
   # set the id as name-space for ui elements
   ns <- NS(id)
-  div(class = ns("content"),
-    fluidRow(class = "align-items-center", # sets vertical align
-      column(10, 
-        # input
-        sliderInput(
-          inputId = ns("num"),
-          label = "Choose a number",
-          value = 25, min = 1, max = 100,
-          width = "100%"
-        )
+  # there has to be a wrapper for successive rows to output correctly
+  tags$section(class=ns("content"),
+    div(class="row align-items-center",
+      div(class='col-sm-12 col-md-10', 
+        sliderInput(inputId = ns("num"), label = "Choose a number", value = 25, min = 1, max = 100, width = "100%")
       ),
-      # action to isolate input
-      column(2,
-        actionButton( 
-          ns("submit"), 
-          "Go!",
-          icon = icon("chevron-right"),
-          class = "btn-primary"
-        )
+      div(class='col-sm-12 col-md-2',
+        actionButton(ns("submit"), "Go!", icon = icon("chevron-right"), class = "btn-primary")
       )
     ),
-    # element prepared for output
-    fluidRow(class = ns("output"),
-      column(12, plotOutput( ns("plot") ))
+    div(class="row",
+      div(class="col-sm-12", 
+        plotOutput(ns("plot"))
+      )
     )
   )
 }
