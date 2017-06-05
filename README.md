@@ -1,7 +1,7 @@
 # Ramen
 
 - **Author:** [Rose McKeon](http://rosemckeon.co.uk)
-- **Version:** 0.1.1
+- **Version:** 0.1.2
 - **Licence:** MIT
 - **Repo:** [git@github.com:rozeykex/ramen.git](https://github.com/rozeykex/ramen.git)
 - **Issues:** https://github.com/rozeykex/ramen/issues
@@ -9,11 +9,9 @@
 
 ## More control over your Shiny App's style and dependencies
 
-**Ramen is a Shiny app template which provides Bootstrap v4 Alpha and custom styles to use as the libs and theme for `bootstrapPage()`, as well as web developer tools and webfonts for further appearance modification.**
+**Ramen is a Shiny app template which provides Bootstrap, along with some of the other dependencies, via Bower so they can be customised and compiled into single css and js resources.**
 
-Ramen makes use of bower and npm to handle development dependencies, enabling Gulp, which is used to minify assets and compile SCSS into fast loading custom distribution files. All the final app files are stored neatly in `./app` to make deployment to shiny servers simple.
-
-Some very basic R inputs and outputs are included via R modules, so it's clear how things work. An example action button is included too, so you can see how to isolate reactions and reduce server load.
+Gulp is used to minify assets and compile SCSS so you can customise bootstrap variables and error check custom JS. Final app files are stored in `./app` for deployment. A basic tabbed layout, with inputs and outputs is included for demonstration, along with skeleton module files to use as a template.
 
 ## Installation
 
@@ -25,7 +23,7 @@ Some very basic R inputs and outputs are included via R modules, so it's clear h
 
 1. Edit `./assets` 
 2. Run `$ gulp` from the project root.
-3. Files output to `./app/www` are made available to your App.
+3. Files output to `./app/www/dist/` are made available to your App.
 
 > `./assets/manifest.json` controls distribution output (see [Manifest help](https://github.com/austinpray/asset-builder/tree/master/help)).
 
@@ -40,11 +38,11 @@ See: `./gulpfile.js` tasks for more details.
 
 ### Useful links
 
-- [Bootstrap](https://v4-alpha.getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Bower](https://bower.io/)
 - [Manifest](https://github.com/austinpray/asset-builder/tree/master/help)
 - [Gulp](http://gulpjs.com/)
 
 ### Contribution
 
-Please feel free to contribute via Github.
+Please feel free to contribute via Github. I'd like to expand on this to allow use of Bootrap 4, but have come across some conflicts that will need resolving.

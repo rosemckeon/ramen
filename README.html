@@ -123,7 +123,7 @@ $(document).ready(function () {
 <h1>Ramen</h1>
 <ul>
 <li><strong>Author:</strong> <a href="http://rosemckeon.co.uk">Rose McKeon</a></li>
-<li><strong>Version:</strong> 0.0.9002</li>
+<li><strong>Version:</strong> 0.1.2</li>
 <li><strong>Licence:</strong> MIT</li>
 <li><strong>Repo:</strong> <a href="https://github.com/rozeykex/ramen.git">git@github.com:rozeykex/ramen.git</a></li>
 <li><strong>Issues:</strong> <a href="https://github.com/rozeykex/ramen/issues" class="uri">https://github.com/rozeykex/ramen/issues</a></li>
@@ -131,9 +131,8 @@ $(document).ready(function () {
 </ul>
 <div id="more-control-over-your-shiny-apps-style-and-dependencies" class="section level2">
 <h2>More control over your Shiny App’s style and dependencies</h2>
-<p><strong>Ramen is a Shiny app template which provides Bootstrap v4 Alpha and custom styles to use as the libs and theme for <code>bootstrapPage()</code>, as well as web developer tools and webfonts for further appearance modification.</strong></p>
-<p>Ramen makes use of bower and npm to handle development dependencies, enabling Gulp, which is used to minify assets and compile SCSS into fast loading custom distribution files. All the final app files are stored neatly in <code>./app</code> to make deployment to shiny servers simple.</p>
-<p>Some very basic R inputs and outputs are included via R modules, so it’s clear how things work. An example action button is included too, so you can see how to isolate reactions and reduce server load.</p>
+<p><strong>Ramen is a Shiny app template which provides Bootstrap, along with some of the other dependencies, via Bower so they can be customised and compiled into single css and js resources.</strong></p>
+<p>Gulp is used to minify assets and compile SCSS so you can customise bootstrap variables and error check custom JS. Final app files are stored in <code>./app</code> for deployment. A basic tabbed layout, with inputs and outputs is included for demonstration, along with skeleton module files to use as a template.</p>
 </div>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
@@ -148,7 +147,7 @@ $(document).ready(function () {
 <ol style="list-style-type: decimal">
 <li>Edit <code>./assets</code></li>
 <li>Run <code>$ gulp</code> from the project root.</li>
-<li>Files output to <code>./app/www</code> are made available to your App.</li>
+<li>Files output to <code>./app/www/dist/</code> are made available to your App.</li>
 </ol>
 <blockquote>
 <p><code>./assets/manifest.json</code> controls distribution output (see <a href="https://github.com/austinpray/asset-builder/tree/master/help">Manifest help</a>).</p>
@@ -166,7 +165,7 @@ $(document).ready(function () {
 <div id="useful-links" class="section level3">
 <h3>Useful links</h3>
 <ul>
-<li><a href="https://v4-alpha.getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
 <li><a href="https://bower.io/">Bower</a></li>
 <li><a href="https://github.com/austinpray/asset-builder/tree/master/help">Manifest</a></li>
 <li><a href="http://gulpjs.com/">Gulp</a></li>
@@ -174,7 +173,7 @@ $(document).ready(function () {
 </div>
 <div id="contribution" class="section level3">
 <h3>Contribution</h3>
-<p>Please feel free to contribute via Github.</p>
+<p>Please feel free to contribute via Github. I’d like to expand on this to allow use of Bootrap 4, but have come across some conflicts that will need resolving.</p>
 </div>
 </div>
 </div>

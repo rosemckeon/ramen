@@ -1,6 +1,6 @@
 {
   "name": "ramen",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/rozeykex/ramen",
   "authors": [
     "Rose McKeon <rose@rosemckeon.co.uk>"
@@ -23,9 +23,7 @@
     "ramen.Rproj"
   ],
   "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6",
-    "raleway": "^1.0.1",
-    "tether": "^1.4.0",
+    "bootstrap-sass": "3.3.7",
     "components-font-awesome": "^4.7.0",
     "respond": "1.4.2",
     "html5shiv": "3.7.3"
