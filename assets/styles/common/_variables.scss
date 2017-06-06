@@ -4,7 +4,8 @@
  */
 
 /* Colours */
-$brand-primary:         #337ab7 !default;
+$brand-primary:         #006635 !default;
+$brand-secondary:       #6E2C6B !default;
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
@@ -14,7 +15,8 @@ $brand-danger:          #d9534f !default;
 $line-height-base: 1.8;
 
 /* Border radius */
-$border-radius-base: 3px !default;
+$border-radius-base: 0;
+$badge-border-radius: $border-radius-base;
 
 /* font-size */
-$font-size-base: 14px !default;
+$font-size-root: 14px;

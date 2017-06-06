@@ -1,9 +1,12 @@
 .action-button {
+  margin-bottom: 2em;
 	cursor: pointer;
-	margin-bottom: 1em;
 	.fa-chevron-right {
 		float: right;
 		margin-left: 0.6em;
 		line-height: 1.9;
 	}
+}
+.nav-tabs {
+  margin-bottom: 1em;
 }

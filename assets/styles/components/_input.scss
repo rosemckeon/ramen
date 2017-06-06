@@ -1,0 +1,13 @@
+/* sliders */
+.irs-bar,
+.irs-single,
+.irs-bar-edge {
+  background: $brand-secondary;
+}
+.irs-bar {
+  border-top-color: $brand-secondary;
+  border-bottom-color: $brand-secondary;
+}
+.irs-bar-edge {
+  border-color: $brand-secondary;
+}
